@@ -41,6 +41,7 @@ brew install python
 brew install jq
 brew install htop
 brew install tree
+brew install starship
 ```
 
 ## Mac software
