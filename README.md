@@ -33,6 +33,8 @@ brew install kubeval
 TODO there is more setup needed here ... like setting up veritual env
 ```bash
 brew install python
+brew install pyenv
+brew install pyenv-virtualenv
 ```
 
 ### other
