@@ -44,6 +44,7 @@ brew install jq
 brew install htop
 brew install tree
 brew install starship
+brew install insomnia
 ```
 
 ## Mac software
