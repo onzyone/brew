@@ -59,6 +59,7 @@ brew install pyenv-virtualenv
 brew install jq
 brew install htop
 brew install tree
+# more stuff for starship https://starship.rs/config/#prompt
 brew install starship
 brew install insomnia
 brew install --cask dropbox
