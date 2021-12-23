@@ -61,17 +61,14 @@ brew install htop
 brew install tree
 brew install starship
 brew install insomnia
-```
-
-## Mac software
-
-```bash
+brew install --cask dropbox
 # screen saver
 brew install --cask aerial
 # windows snap
 brew install --cask rectangle
 brew install --cask brave-browser
 brew install --cask slack 
+brew install pwsafe
 ```
 
 ### all done
