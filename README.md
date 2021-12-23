@@ -16,6 +16,15 @@ brew install awscli
 brew install aws-iam-authenticator
 ```
 
+### docker
+```bash
+brew install --cask docker
+brew install bash-completion
+brew install docker-completion
+brew install docker-compose-completion
+brew install docker-machine-completion
+```
+
 ### k8s
 ```bash
 
