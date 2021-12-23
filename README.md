@@ -3,6 +3,13 @@ list of tools that brew install
 
 ## tools
 
+### start here
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install --cask iterm2
+```
+
 ### aws
 ```bash
 brew install awscli
@@ -50,7 +57,15 @@ brew install insomnia
 ## Mac software
 
 ```bash
-brew install --cask aerial # screen saver
-brew install --cask rectangle # windows snap
+# screen saver
+brew install --cask aerial
+# windows snap
+brew install --cask rectangle
 brew install --cask brave-browser
+brew install --cask slack 
+```
+
+### all done
+```bash
+brew cleanup
 ```
