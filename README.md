@@ -60,6 +60,7 @@ brew install --cask visual-studio-code
 brew install jq
 brew install htop
 brew install tree
+brew install --cask sublime-text
 ```
 
 ### other
