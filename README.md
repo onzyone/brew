@@ -75,8 +75,7 @@ brew install --cask aerial
 # windows snap
 brew install --cask rectangle
 brew install --cask brave-browser
-brew install --cask slack 
-brew install pwsafe
+brew install --cask slack
 ```
 
 ### all done
