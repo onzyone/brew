@@ -53,12 +53,18 @@ brew install pyenv
 brew install pyenv-virtualenv
 ```
 
-### other
-
+### support tools
 ```bash
+brew install git
+brew install --cask visual-studio-code
 brew install jq
 brew install htop
 brew install tree
+```
+
+### other
+
+```bash
 # more stuff for starship https://starship.rs/config/#prompt
 brew install starship
 brew install insomnia
