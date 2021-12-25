@@ -78,6 +78,7 @@ brew install --cask aerial
 brew install --cask rectangle
 brew install --cask brave-browser
 brew install --cask slack
+brew install --cask zoom
 ```
 
 ### all done
