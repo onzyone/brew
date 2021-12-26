@@ -71,6 +71,7 @@ brew install watch
 ```bash
 # more stuff for starship https://starship.rs/config/#prompt
 brew install starship
+brew install starship zsh-syntax-highlighting
 brew install insomnia
 brew install --cask dropbox
 # screen saver
