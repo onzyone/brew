@@ -1,4 +1,4 @@
-# brew
+e# brew
 list of tools that brew install
 
 ## tools
@@ -53,6 +53,29 @@ brew install python
 brew install pyenv
 brew install pyenv-virtualenv
 ```
+#### python exports
+```bash
+# python
+if command -v pyenv 1>/dev/null 2>&1; then
+  export PYENV_ROOT="$HOME/.pyenv"
+  export PATH="${PYENV_ROOT}/bin:${PATH}"
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+fi
+
+alias python=/opt/homebrew/bin/python3
+alias pip=/opt/homebrew/bin/pip3
+```
+
+### lint
+```
+pip install yamllint
+pip install pylint
+pip install pre-commit
+brew install shellcheck
+
+pre-commit install
+```
 
 ### support tools
 ```bash
@@ -82,6 +105,26 @@ brew install --cask brave-browser
 brew install --cask slack
 brew install --cask zoom
 brew install direnv
+```
+
+#### ~/.zshrc
+```bash
+autoload -Uz compinit
+compinit
+
+export EDITOR=vim
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(starship init zsh)"
+eval "$(direnv hook zsh)"
+
+# k8s
+source <(kubectl completion zsh)
+alias k=kubectl
+compdef __start_kubectl k
+
+curl https://v2.wttr.in
 ```
 
 ### all done
