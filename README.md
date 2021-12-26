@@ -37,6 +37,7 @@ brew install kustomize
 brew install kind
 brew install tilt-dev/tap/tilt
 brew install derailed/k9s/k9s
+brew install kubectx
 
 # kubeval
 brew tap instrumenta/instrumenta
