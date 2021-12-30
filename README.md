@@ -105,6 +105,7 @@ brew install --cask brave-browser
 brew install --cask slack
 brew install --cask zoom
 brew install direnv
+brew install mkcert
 ```
 
 #### ~/.zshrc
