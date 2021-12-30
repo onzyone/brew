@@ -77,6 +77,11 @@ brew install shellcheck
 pre-commit install
 ```
 
+### go
+```bash
+brew install go
+```
+
 ### support tools
 ```bash
 brew install git
