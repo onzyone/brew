@@ -46,6 +46,12 @@ brew install kubeval
 
 ```
 
+### eks
+
+```bash
+brew install eksctl
+```
+
 ### python
 
 TODO there is more setup needed here ... like setting up veritual env
