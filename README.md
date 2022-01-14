@@ -120,7 +120,9 @@ brew install direnv
 brew install mkcert
 # may not need this one all the time
 brew install menumeters
+brew vault
 ```
+
 
 #### ~/.zshrc
 ```bash
