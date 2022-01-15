@@ -89,6 +89,12 @@ pre-commit install
 brew install go
 ```
 
+### unity
+```bash
+brew install --cask unity-hub
+brew install --cask dotnet
+```
+
 ### support tools
 ```bash
 brew install git
