@@ -93,6 +93,7 @@ brew install go
 ```bash
 brew install --cask unity-hub
 brew install --cask dotnet
+brew install --cask dotnet-sdk
 ```
 
 ### support tools
