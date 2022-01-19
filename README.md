@@ -32,6 +32,7 @@ brew install kubectl # don't forget to install other stuff https://kubernetes.io
 
 brew install helm
 brew install helmfile
+brew install chart-testing
 brew install kustomize
 
 brew install kind
