@@ -128,6 +128,7 @@ brew install mkcert
 # may not need this one all the time
 brew install menumeters
 brew vault
+brew install --cask ledger-live
 ```
 
 
