@@ -47,8 +47,15 @@ brew install kubeval
 
 ```
 
-### eks
+### terraform
+```bash
+# https://learn.hashicorp.com/tutorials/terraform/install-cli
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+brew install tflint
+```
 
+### eks
 ```bash
 brew install eksctl
 ```
