@@ -114,6 +114,7 @@ brew install tree
 brew install --cask sublime-text
 brew install wget
 brew install watch
+brew install coreutils
 ```
 
 ### other
