@@ -68,6 +68,7 @@ TODO there is more setup needed here ... like setting up veritual env
 brew install python
 brew install pyenv
 brew install pyenv-virtualenv
+brew install miniforge
 ```
 #### python exports
 ```bash
