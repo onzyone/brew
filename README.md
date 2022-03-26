@@ -141,9 +141,14 @@ brew vault
 ```
 
 ### crypto
-```
+```bash
 brew install --cask ipfs
 brew install --cask ledger-live
+```
+
+### haskell
+```bash
+brew install cabal-install
 ```
 
 #### ~/.zshrc
