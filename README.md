@@ -16,6 +16,11 @@ brew install awscli
 brew install aws-iam-authenticator
 ```
 
+### gcp
+```
+brew install --cask google-cloud-sdk
+```
+
 ### docker
 ```bash
 brew install --cask docker
