@@ -115,6 +115,7 @@ brew install --cask dotnet-sdk
 brew install git
 brew install --cask visual-studio-code
 brew install jq
+brew install yq
 brew install htop
 brew install tree
 brew install --cask sublime-text
