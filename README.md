@@ -115,6 +115,7 @@ brew install --cask dotnet-sdk
 ### support tools
 ```bash
 brew install git
+brew install gh
 brew install --cask visual-studio-code
 brew install jq
 brew install yq
