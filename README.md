@@ -50,6 +50,9 @@ brew install kubectx
 brew tap instrumenta/instrumenta
 brew install kubeval
 
+# optional but kind of cool
+brew install infra
+
 ```
 
 ### terraform
