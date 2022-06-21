@@ -40,11 +40,14 @@ brew install helmfile
 brew install chart-testing
 brew install kustomize
 
-brew install kind
-brew install minikube
 brew install tilt-dev/tap/tilt
 brew install derailed/k9s/k9s
 brew install kubectx
+
+# pick your adventure
+brew install k3d
+brew install kind
+brew install minikube
 
 # kubeval
 brew tap instrumenta/instrumenta
