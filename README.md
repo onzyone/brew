@@ -155,6 +155,8 @@ brew install --cask slack
 brew install --cask zoom
 brew install direnv
 brew install mkcert
+# replaces iState
+brew install --cask stats
 # may not need this one all the time
 brew install menumeters
 brew vault
