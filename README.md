@@ -28,6 +28,8 @@ brew install bash-completion
 brew install docker-completion
 brew install docker-compose-completion
 brew install docker-machine-completion
+
+brew install buildpacks/tap/pack
 ```
 
 ### k8s
