@@ -120,6 +120,12 @@ brew install --cask unity-hub
 brew install --cask dotnet-sdk
 ```
 
+### db tools
+```bash
+# mongodb
+brew install --cask studio-3t
+```
+
 ### support tools
 ```bash
 brew install git
