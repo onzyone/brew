@@ -123,7 +123,7 @@ brew install --cask dotnet-sdk
 ### db tools
 ```bash
 # mongodb
-brew install --cask studio-3t
+brew install --cask mongodb-compass
 ```
 
 ### support tools
@@ -139,6 +139,7 @@ brew install --cask sublime-text
 brew install wget
 brew install watch
 brew install coreutils
+brew install --cask obsidian
 ```
 
 ### api testing tools
