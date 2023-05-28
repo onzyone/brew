@@ -120,6 +120,13 @@ brew install --cask unity-hub
 brew install --cask dotnet-sdk
 ```
 
+### godot
+```bash
+brew install --cask godot
+brew install emscripten
+brew install scons
+```
+
 ### db tools
 ```bash
 # mongodb
