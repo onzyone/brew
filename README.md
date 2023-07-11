@@ -10,17 +10,6 @@ list of tools that brew install
 brew install --cask iterm2
 ```
 
-### aws
-```bash
-brew install awscli
-brew install aws-iam-authenticator
-```
-
-### gcp
-```
-brew install --cask google-cloud-sdk
-```
-
 ### docker
 ```bash
 brew install --cask docker
@@ -70,21 +59,30 @@ brew install tfsec
 brew install terraform-docs
 ```
 
-### eks
+### aws
 ```bash
+brew install awscli
+brew install aws-iam-authenticator
 brew install eksctl
 ```
 
-### python
+### gcp
+```
+brew install --cask google-cloud-sdk
+```
 
-TODO there is more setup needed here ... like setting up veritual env
+### Langs
+
+#### python
+
+TODO there is more setup needed here ... like setting up virtual env
 ```bash
 brew install python
 brew install pyenv
 brew install pyenv-virtualenv
 brew install miniforge
 ```
-#### python exports
+##### python exports
 ```bash
 add this into ~/.zshrc
 # python
@@ -99,7 +97,7 @@ alias python=/opt/homebrew/bin/python3
 alias pip=/opt/homebrew/bin/pip3
 ```
 
-### lint
+#### lint
 ```
 pip install yamllint
 pip install pylint
@@ -109,18 +107,23 @@ brew install shellcheck
 pre-commit install
 ```
 
-### go
+#### go
 ```bash
 brew install go
 ```
 
-### unity
+#### haskell
+```bash
+brew install cabal-install
+```
+
+#### unity
 ```bash
 brew install --cask unity-hub
 brew install --cask dotnet-sdk
 ```
 
-### godot
+#### godot
 ```bash
 brew install --cask godot
 brew install emscripten
@@ -152,7 +155,6 @@ brew install --cask obsidian
 ### api testing tools
 ```bash
 brew install insomnia
-brew install --cask firecamp
 ```
 
 ### other
@@ -184,11 +186,6 @@ brew vault
 ```bash
 brew install --cask ipfs
 brew install --cask ledger-live
-```
-
-### haskell
-```bash
-brew install cabal-install
 ```
 
 #### ~/.zshrc
