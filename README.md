@@ -112,22 +112,15 @@ pre-commit install
 brew install go
 ```
 
-#### haskell
+#### node
 ```bash
-brew install cabal-install
+brew install deno
 ```
 
 #### unity
 ```bash
 brew install --cask unity-hub
 brew install --cask dotnet-sdk
-```
-
-#### godot
-```bash
-brew install --cask godot
-brew install emscripten
-brew install scons
 ```
 
 ### db tools
