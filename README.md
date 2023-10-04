@@ -162,6 +162,7 @@ brew install --cask aerial
 # windows snap
 brew install --cask rectangle
 brew install --cask brave-browser
+brew install --cask arc
 brew install --cask slack
 brew install --cask zoom
 brew install direnv
@@ -170,7 +171,7 @@ brew install mkcert
 brew install --cask stats
 # may not need this one all the time
 brew install menumeters
-brew vault
+brew install --cask karabiner-elements
 ```
 
 ### crypto
