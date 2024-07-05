@@ -10,6 +10,7 @@ list of tools that brew install
 brew install --cask iterm2 
 or
 brew install --cask wezterm
+brew install font-meslo-lg-nerd-font
 ```
 
 ### docker
