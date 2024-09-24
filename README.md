@@ -13,6 +13,12 @@ brew install --cask wezterm
 brew install font-meslo-lg-nerd-font
 ```
 
+### IDE
+```bash
+brew install --cask cursor
+brew install --cask visual-studio-code
+```
+
 ### docker
 ```bash
 brew install --cask docker
@@ -45,7 +51,7 @@ brew install minikube
 brew tap instrumenta/instrumenta
 brew install kubeval
 
-# optional but kind of cool
+# optional but cool
 brew install infra
 
 ```
@@ -76,7 +82,7 @@ brew install --cask google-cloud-sdk
 
 #### python
 
-TODO there is more setup needed here ... like setting up virtual env
+TODO there is more setup needed here ... like setting up a virtual env
 ```bash
 brew install python
 brew install pyenv
