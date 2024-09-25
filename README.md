@@ -47,10 +47,6 @@ brew install k3d
 brew install kind
 brew install minikube
 
-# kubeval
-brew tap instrumenta/instrumenta
-brew install kubeval
-
 # optional but cool
 brew install infra
 
@@ -140,7 +136,6 @@ brew install --cask mongodb-compass
 ```bash
 brew install git
 brew install gh
-brew install --cask visual-studio-code
 brew install jq
 brew install yq
 brew install htop
