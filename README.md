@@ -158,8 +158,6 @@ brew install insomnia
 # more stuff for starship https://starship.rs/config/#prompt
 brew install starship
 brew install starship zsh-syntax-highlighting
-brew install --cask fig
-fig doctor
 brew install --cask dropbox
 # screen saver
 brew install --cask aerial
