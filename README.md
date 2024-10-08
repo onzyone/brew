@@ -75,51 +75,7 @@ brew install --cask google-cloud-sdk
 ```
 
 ### Langs
-
-#### python
-
-TODO there is more setup needed here ... like setting up a virtual env
-```bash
-brew install python
-brew install pyenv
-brew install pyenv-virtualenv
-brew install miniforge
-```
-##### python exports
-```bash
-add this into ~/.zshrc
-# python
-if command -v pyenv 1>/dev/null 2>&1; then
-  export PYENV_ROOT="$HOME/.pyenv"
-  export PATH="${PYENV_ROOT}/bin:${PATH}"
-  eval "$(pyenv init --path)"
-  eval "$(pyenv init -)"
-fi
-
-alias python=/opt/homebrew/bin/python3
-alias pip=/opt/homebrew/bin/pip3
-```
-
-#### lint
-```
-pip install yamllint
-pip install pylint
-pip install pre-commit
-brew install shellcheck
-
-pre-commit install
-```
-
-#### go
-```bash
-brew install go
-```
-
-#### node
-```bash
-brew install deno
-```
-
+just got with devcontainers.
 #### unity
 ```bash
 brew install --cask unity-hub
@@ -136,6 +92,7 @@ brew install --cask mongodb-compass
 ```bash
 brew install git
 brew install gh
+brew install act # github actions local run
 brew install jq
 brew install yq
 brew install htop
